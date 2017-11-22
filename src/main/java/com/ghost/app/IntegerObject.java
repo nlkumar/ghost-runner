@@ -1,10 +1,5 @@
 package com.ghost.app;
 
-import static com.ghost.lib.Agent.getObjectSize;
-import static java.lang.System.out;
-
-import java.math.BigInteger;
-
 import org.openjdk.jol.info.ClassLayout;
 
 public class IntegerObject{
@@ -51,8 +46,8 @@ public class IntegerObject{
 	private static Integer[] arrayNos = { 5, 10, 15 };
 
 	public static void printDefaultMemoryUsage() {
-		long objectSizeInBytes = getObjectSize(no);
-		out.println("Size = " + objectSizeInBytes + " bytes or " + (objectSizeInBytes * 8) + " bits");
+//		long objectSizeInBytes = getObjectSize(no);
+//		out.println("Size = " + objectSizeInBytes + " bytes or " + (objectSizeInBytes * 8) + " bits");
 	}
 
 	public static void printMemoryUsage() {
