@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile 'org.openjdk.jol:jol-core:0.9'
+}
